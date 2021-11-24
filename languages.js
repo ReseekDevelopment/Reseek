@@ -1,5 +1,3 @@
-'use strict';
-   
    Weglot.initialize({
         api_key: 'wg_96d066d437b4659a26bb62d3cf3f0e5c8'
     });
