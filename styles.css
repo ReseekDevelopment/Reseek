@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Montserrat";
+    src:  url('https://cdn.jsdelivr.net/gh/JulietaUla/Montserrat@b54c0978c3fd840c9ccd864600608e593fffee5a/fonts/ttf/Montserrat-Black.ttf') format('truetype');
+    src:  url('https://cdn.jsdelivr.net/gh/JulietaUla/Montserrat@b54c0978c3fd840c9ccd864600608e593fffee5a/fonts/ttf/Montserrat-Bold.ttf') format('truetype');
+    src:  url('https://cdn.jsdelivr.net/gh/JulietaUla/Montserrat@b54c0978c3fd840c9ccd864600608e593fffee5a/fonts/ttf/Montserrat-Regular.ttf') format('truetype');
+  }
+
+  body,html {
+    margin: 0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    }
+
+.main-signature-cnt{
+  display: block;
+  width: 100%;
+    max-width: 650px;
+    height: auto;
+    min-height: 90px;
+    height: auto;
+    background-color: black;
+}
+
+h1 {
+color:white;
+    
+}
