@@ -71,21 +71,21 @@ tlMenu.to(".overlay-blur", 0.3, {opacity:1, display:"flex"});
 function checkBgMenu(){
      if(($('.main-section').css("background-color") == "rgb(16, 14, 14)") || ($('.main-section').css("background-color") == "#100E0E")){
      
-    	 gsap.to('#open', { duration: 0.2, color: '#ffffff'})
+       gsap.to('#open', { duration: 0.2, color: '#ffffff'})
        gsap.to('#close', { duration: 0.2, color: '#ffffff'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
+       gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
 
      } else if(($('.main-section').css("background-color") == "rgb(245, 245, 247)") || ($('.main-section').css("background-color") == "#F5F5F7")) {
      
      if(!$('.menu-wrapper').hasClass('open')){
       gsap.to('#open', { duration: 0.2, color: '#100E0E'})
-       gsap.to('#close', { duration: 0.2, color: '#100E0E'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#100E0E'})
+      gsap.to('#close', { duration: 0.2, color: '#100E0E'})
+      gsap.to('.logo-svg', { duration: 0.2, color: '#100E0E'})
      
      		} else {
-			 gsap.to('#open', { duration: 0.2, color: '#ffffff'})
-       gsap.to('#close', { duration: 0.2, color: '#ffffff'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
+	 gsap.to('#open', { duration: 0.2, color: '#ffffff'})
+         gsap.to('#close', { duration: 0.2, color: '#ffffff'})
+         gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
       }
      
      }
@@ -186,10 +186,10 @@ let tl = gsap.timeline({
  
    onEnter: () => {
      gsap.to('.main-section', { duration: 0.3, backgroundColor: '#100E0E'})
-      	 gsap.to('#open', { duration: 0.2, color: '#ffffff'})
-       gsap.to('#close', { duration: 0.2, color: '#ffffff'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
-        gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#100E0E'})
+     gsap.to('#open', { duration: 0.2, color: '#ffffff'})
+     gsap.to('#close', { duration: 0.2, color: '#ffffff'})
+     gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
+     gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#100E0E8C'})
       
 
      
@@ -197,10 +197,10 @@ let tl = gsap.timeline({
    
    onLeaveBack: () => {
      gsap.to('.main-section', { duration: 0.3, backgroundColor: '#100E0E'})
-      	 gsap.to('#open', { duration: 0.2, color: '#ffffff'})
-       gsap.to('#close', { duration: 0.2, color: '#ffffff'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
-          gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#100E0E'})
+     gsap.to('#open', { duration: 0.2, color: '#ffffff'})
+     gsap.to('#close', { duration: 0.2, color: '#ffffff'})
+     gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
+     gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#100E0E8C'})
   
 
    },
@@ -218,20 +218,20 @@ let tl = gsap.timeline({
  
    onEnter: () => {
      gsap.to('.main-section', { duration: 0.3, backgroundColor: '#F5F5F7'})
-      	 gsap.to('#open', { duration: 0.2, color: '#000000'})
-       gsap.to('#close', { duration: 0.2, color: '#000000'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#000000'})
-                gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#ffffff'})
+     gsap.to('#open', { duration: 0.2, color: '#000000'})
+     gsap.to('#close', { duration: 0.2, color: '#000000'})
+     gsap.to('.logo-svg', { duration: 0.2, color: '#000000'})
+     gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#ffffff8C'})
          
 
    },
    
    onLeaveBack: () => {
      gsap.to('.main-section', { duration: 0.3, backgroundColor: '#100E0E'})
-       	 gsap.to('#open', { duration: 0.2, color: '#ffffff'})
-       gsap.to('#close', { duration: 0.2, color: '#ffffff'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
-                gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#100E0E'})
+     gsap.to('#open', { duration: 0.2, color: '#ffffff'})
+     gsap.to('#close', { duration: 0.2, color: '#ffffff'})
+     gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
+     gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#100E0E8C'})
   
 
      },
@@ -249,10 +249,10 @@ let tl = gsap.timeline({
  
    onEnter: () => {
      gsap.to('.main-section', { duration: 0.3, backgroundColor: '#100E0E'})
-   	 gsap.to('#open', { duration: 0.2, color: '#ffffff'})
-       gsap.to('#close', { duration: 0.2, color: '#ffffff'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
-         gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#100E0E'})
+     gsap.to('#open', { duration: 0.2, color: '#ffffff'})
+     gsap.to('#close', { duration: 0.2, color: '#ffffff'})
+     gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
+     gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#100E0E8C'})
 
  
    },
@@ -260,8 +260,9 @@ let tl = gsap.timeline({
    onLeaveBack: () => {
       gsap.to('.main-section', { duration: 0.3, backgroundColor: '#F5F5F7'})
       gsap.to('#open', { duration: 0.2, color: '#000000'})
-       gsap.to('#close', { duration: 0.2, color: '#000000'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#000000'})
+      gsap.to('#close', { duration: 0.2, color: '#000000'})
+      gsap.to('.logo-svg', { duration: 0.2, color: '#000000'})
+      gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#ffffff8C'})
         
    
 
@@ -280,18 +281,20 @@ let tl = gsap.timeline({
  
    onEnter: () => {
      gsap.to('.main-section', { duration: 0.3, backgroundColor: '#F5F5F7'})
-      gsap.to('#open', { duration: 0.2, color: '#000000'})
-       gsap.to('#close', { duration: 0.2, color: '#000000'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#000000'})
+     gsap.to('#open', { duration: 0.2, color: '#000000'})
+     gsap.to('#close', { duration: 0.2, color: '#000000'})
+     gsap.to('.logo-svg', { duration: 0.2, color: '#000000'})
+     gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#ffffff8C'})
 
 
    },
    
    onLeaveBack: () => {
      gsap.to('.main-section', { duration: 0.3, backgroundColor: '#100E0E'})
-      	 gsap.to('#open', { duration: 0.2, color: '#ffffff'})
-       gsap.to('#close', { duration: 0.2, color: '#ffffff'})
-        gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
+      gsap.to('#open', { duration: 0.2, color: '#ffffff'})
+      gsap.to('#close', { duration: 0.2, color: '#ffffff'})
+      gsap.to('.logo-svg', { duration: 0.2, color: '#ffffff'})
+      gsap.to('.background-blur-menu', { duration: 0.2, backgroundColor: '#100E0E8C'})
 
 
      },
